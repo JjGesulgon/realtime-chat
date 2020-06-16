@@ -3,6 +3,5 @@
 /server/node_modules
 .env
 .env.backup
-/package-lock.json
 npm-debug.log
 yarn-error.log
