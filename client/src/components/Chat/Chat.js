@@ -20,7 +20,6 @@ const Chat = ({ location }) => {
         setRoom(room);
 
         socket.emit('join', { name, room }, () => {
-            
         });
 
         return () => {
