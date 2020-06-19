@@ -18,6 +18,7 @@ const Chat = ({ location }) => {
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
     const ENDPOINT = 'http://134.209.104.173:5000/'
+    //test
 
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
