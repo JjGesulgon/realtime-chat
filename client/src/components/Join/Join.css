@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
   }
@@ -22,32 +25,42 @@ html, body {
   }
   
   .joinInnerContainer {
+    margin-top: -2em;
     width: 20%;
+  }
+
+  .logo{
+    width: 100px;
+    height: 100px
   }
   
   .joinInput {
     border-radius: 0;
     padding: 15px 20px;
     width: 100%;
+    font-family: 'Raleway', sans-serif;
   }
   
   .heading {
     color: white;
     font-size: 2.5em;
+    font-weight: 100;
     padding-bottom: 10px;
     border-bottom: 2px solid white;
+    font-family: 'Raleway', sans-serif;
   }
   
   .button {
       color: #fff !important;
       text-transform: uppercase;
       text-decoration: none;
-      background: #2979FF;
+      background: #5f68ab;
       padding: 20px;
       border-radius: 5px;
       display: inline-block;
       border: none;
       width: 100%;
+      font-family: 'Raleway', sans-serif;
   }
   
   .mt-20 {
