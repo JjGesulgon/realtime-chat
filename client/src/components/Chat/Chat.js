@@ -18,7 +18,6 @@ const Chat = ({ location }) => {
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
     const ENDPOINT = 'https://server.sturya.jjgesulgon.dev/'
-    //test
 
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
