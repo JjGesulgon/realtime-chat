@@ -17,7 +17,7 @@ const Chat = ({ location }) => {
     const [users, setUsers] = useState('');
     const [message, setMessage] = useState('');
     const [messages, setMessages] = useState([]);
-    const ENDPOINT = 'http://134.209.104.173:5000/'
+    const ENDPOINT = 'https://server.sturya.jjgesulgon.dev/'
     //test
 
     useEffect(() => {
