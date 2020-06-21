@@ -1,2 +1,3 @@
 # realtime-chat
-A simple chat app.
+
+Realtime Chat Web App built using React.js and Node.js + socket.io
